@@ -1,0 +1,2 @@
+0 8 * * * /opt/tagsnooper/bin/check_tags.sh
+0 20 * * * /opt/tagsnooper/bin/check_tags.sh

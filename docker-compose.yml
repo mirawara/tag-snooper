@@ -1,0 +1,9 @@
+services:
+  tag-snooper:
+    image: tag-snooper
+    build: .
+    volumes:
+      - ./conf/muttrc:/root/.muttrc
+      - ./repositories.txt:/opt/tagsnooper/repositories.txt
+    environment:
+      - RECIPIENT=recipient@gmail.com

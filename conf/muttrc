@@ -1,0 +1,6 @@
+set smtp_url = "smtp://account@gmail.comt@smtp-relay.gmail.com:587/"
+set smtp_pass = "your_password_here"
+set from = "tag-snooper@gmail.com"
+set realname = "Tag Snooper"
+set ssl_starttls = no
+set ssl_force_tls = yes
